@@ -12,4 +12,20 @@
 /*======LAYOUT========*/
 @import'./layout/header.css';
 @import'./layout/hero.css';
-@import'./layout/section-2.css'
+@import'./layout/section-3.css';
+
+/* modal */
+
+@import './layout/modal.css';
+
+/* section 2 */
+
+@import './layout/section-2.css';
+
+/* section 4 */
+
+@import './layout/section-4.css';
+
+/* footer */
+
+@import './layout/footer.css';

@@ -1,0 +1,234 @@
+ /* MOBILE */
+
+
+ .page-footer {
+     background: #2E2F42;
+ }
+
+ .footer-text {
+     color: #F4F4FD;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 1.5;
+     letter-spacing: 0.02em;
+     max-width: 264px;
+ }
+
+ .foter-icons {
+     display: flex;
+     list-style-type: none;
+     gap: 16px;
+     justify-content: center;
+ }
+
+ .cards-icon {
+     margin-top: 72px;
+     text-align: center;
+     justify-content: center;
+ }
+
+ .link-social-footer {
+     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ }
+
+
+ .lebs {
+     display: block;
+     margin-bottom: 16px;
+     text-align: center;
+     align-items: center;
+ }
+
+ .studio-footer {
+     color: #F4F4FD;
+ }
+
+ .footer-content {
+     padding-top: 97.5px;
+     padding-bottom: 96px;
+     display: block;
+     align-items: baseline;
+ }
+
+ .footer-text-link {
+     display: inline-block;
+     margin-bottom: 16px;
+     color: #FFF;
+     font-size: 16px;
+     font-weight: 500;
+     line-height: 1.5;
+     letter-spacing: 0.02em;
+     align-items: center;
+     justify-content: center;
+ }
+
+
+ .link-social-footer:hover,
+ .link-social-footer:focus {
+     background-color: #31D0AA;
+     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ }
+
+ .container-sub {
+     margin-top: 72px;
+ }
+
+ .sub-footer {
+     display: block;
+     font-size: 16px;
+     font-weight: 500;
+     line-height: 1.5;
+     letter-spacing: 0.02em;
+     color: #FFFFFF;
+     margin-bottom: 16px;
+     text-align: center;
+ }
+
+ .form-sub {
+     display: block;
+ }
+
+ .input-user-email {
+     width: 288px;
+     height: 40px;
+     padding-left: 16px;
+     border-radius: 4px;
+     border: 1px solid #FFF;
+     background-color: transparent;
+     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+     color: #FFF;
+     font-size: 12px;
+     font-weight: 400;
+     line-height: 1.5;
+     letter-spacing: 0.04em;
+     opacity: 0.3;
+     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+ }
+
+ .input-user-email::placeholder {
+     color: #ffffff;
+ }
+
+ .submit-button {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 165px;
+     height: 40px;
+     padding: 8px 24px;
+     border-radius: 4px;
+     border: none;
+     cursor: pointer;
+     color: #FFF;
+     font-family: "Roboto", sans-serif;
+     font-size: 16px;
+     font-weight: 500;
+     line-height: 1.5;
+     letter-spacing: 0.04em;
+     background-color: #4D5AE5;
+     margin-top: 16px;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ .button-telegram {
+     margin-left: 16px;
+     fill: #FFFFFF;
+ }
+
+ .manu-sotion {
+     gap: 16px;
+     margin-top: 0;}
+
+
+
+ /* TABLET */
+
+
+ @media screen and (min-width: 768px) {
+     .cards-icon {
+         margin-top: 0;
+     }
+
+     .container-sub {
+         margin-top: 0;
+     }
+
+     .footer-content {
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+         max-width: 584px;
+         gap: 72px 24px;
+     }
+
+     .form-sub {
+         display: flex;
+         gap: 24px;
+     }
+
+     .submit-button {
+         margin: 0;
+     }
+
+     .input-user-email {
+         width: 264px;
+     }
+
+     .sub-footer {
+         text-align: left
+     }
+ }
+
+
+ /* LAPTOP */
+
+ @media screen and (min-width:1158px) {
+     .page-footer {
+         padding-top: 100px;
+         padding-bottom: 100px;
+     }
+
+
+     .footer-content {
+         padding: 0;
+         justify-content: center;
+     }
+
+     .foter-icons {
+         justify-content: flex-start;
+     }
+
+     .lebs {
+         display: inline-block;
+     }
+
+     .container-social-links {
+         margin-right: 120px;
+     }
+
+     .footer-content{
+         max-width: 100%;
+         align-items: baseline;
+         display: flex;
+         gap: 0;
+     }
+
+     .cards-icon {
+         text-align: left;
+         margin-right: 80px;
+     }
+
+     .input-user-email {
+         opacity: initial;
+         box-shadow: initial
+     }
+
+
+     .submit-button {
+         font-family: Roboto;
+     }
+
+     
+     
+ }

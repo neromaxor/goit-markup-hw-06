@@ -1,7 +1,7 @@
 /* MOBILE Information Section 2 */
 
 
-.section-two{
+.section-two {
     padding-top: 96px;
     padding-bottom: 96px;
     background-color: #FFF;
@@ -61,49 +61,51 @@
         text-align: left
     }
 }
- /*==========PC-version=========*/
- @media screen  and (min-width:1158px){
+
+
+/* LAPTOP Information Section 2 */
+
+
+@media screen and (min-width:1158px) {
+
+
+
     .name-text {
-            font-size: 20px;
-            font-weight: 500;
-            line-height: 1.2;
-            letter-spacing: 0.02em;
-            text-transform: none;
-        }
-    
-        .title-text {
-            font-weight: 400;
-            line-height: 1.5;
-        }
-    
-        .section-two {
-            padding-top: 120px;
-            padding-bottom: 120px;
-        }
-    
-        .antenna {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 264px;
-            height: 112px;
-            border-radius: 4px;
-            border: 1px solid #8E8F99;
-            background-color: #F4F4FD;
-            margin-bottom: 8px;
-        }
-    
-        .icon-antenna {
-            margin: 24px 100px;
-        }
-    
-        .information {
-            gap: 24px;
-            flex-wrap: nowrap;
-        }
-    
-        .magor {
-            width: calc((100% - 72px) / 4);
-        }
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-transform: none;
     }
- 
+
+    .title-text {
+        font-weight: 400;
+        line-height: 1.5;
+    }
+
+    .section-two {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .antenna {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 264px;
+        height: 112px;
+        border-radius: 4px;
+        border: 1px solid #8E8F99;
+        background-color: #F4F4FD;
+        margin-bottom: 8px;
+    }
+
+    .icon-antenna {
+        margin: 24px 100px;
+    }
+
+    .information {
+        gap: 24px;
+        flex-wrap: nowrap;
+    }
+}

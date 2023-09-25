@@ -9,9 +9,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #2E2F42;
-    padding-top: 72px;
-    background-image: url();
-}
+    padding-top: 72px;}
 
 
 
@@ -61,7 +59,7 @@ screen and (min-resolution:192dppx),
 screen and (min-device-pixel-rotatio: 2) {
     .section-one{
         background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
-            url(../images/hero/hero-image-mobile@2x.jpg);
+            url(../hero/hero-image-mobile@2x.jpg);
     }
 }
 
@@ -82,7 +80,7 @@ screen and (min-device-pixel-rotatio: 2) {
     .section-one {
         padding: 112px 0;
         background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
-            url(../images/hero/hero-image-tablet.jpg);
+            url(../hero/hero-image-tablet.jpg);
         max-width: 1157px;
         height: 436px;
     }
@@ -97,7 +95,7 @@ screen and (min-resolution: 2dppx),
 screen and (min-device-pixel-ratio: 2) {
     .section-one {
         background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
-            url(../images/hero/hero-image-tablet@2x.jpg);
+            url(../hero/hero-image-tablet@2x.jpg);
     }
 
 }
@@ -133,7 +131,7 @@ screen and (min-device-pixel-ratio: 2) {
     }
 
     /*виправляв глянуть в старі дз */
-    button {
+    .button {
         cursor: pointer;
         font-style: inherit;
         color: #FFFFFF;
@@ -142,11 +140,12 @@ screen and (min-device-pixel-ratio: 2) {
         line-height: 1.5;
         letter-spacing: 0.04em;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        margin-top: 48px;
     }
 
 
-    button:hover,
-    button:focus {
+    .button:hover,
+    .button:focus {
         color: #404BBF;
         color: #FFFFFF;
         background-color: #404BBF;
@@ -160,3 +159,5 @@ screen and (min-device-pixel-ratio: 2) {
                         url(../hero/hero-image-laptop@2x.jpg);
         } 
         }}
+
+
