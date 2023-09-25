@@ -1,0 +1,33 @@
+/*Скидання дляпочатку роботи над розміщенням всього*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+/*Скидання дляпочатку роботи над розміщенням всього*/
+.list {
+    list-style-type: none;
+    font-weight: 500;
+    color: #2e2f42;
+}

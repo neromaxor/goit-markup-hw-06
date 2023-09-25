@@ -1,0 +1,109 @@
+/* MOBILE Information Section 2 */
+
+
+.section-two{
+    padding-top: 96px;
+    padding-bottom: 96px;
+    background-color: #FFF;
+}
+
+.antenna {
+    display: none;
+}
+
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 72px;
+    list-style-type: none;
+}
+
+.name-text {
+    color: #2E2F42;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.title-text {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+
+/* TABLET Information Section 2 */
+
+
+@media screen and (min-width:768px) {
+    .information {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 24px;
+    }
+
+
+    .magor {
+        width: 356px
+    }
+
+    .name-text {
+        text-align: left
+    }
+}
+ /*==========PC-version=========*/
+ @media screen  and (min-width:1158px){
+    .name-text {
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 1.2;
+            letter-spacing: 0.02em;
+            text-transform: none;
+        }
+    
+        .title-text {
+            font-weight: 400;
+            line-height: 1.5;
+        }
+    
+        .section-two {
+            padding-top: 120px;
+            padding-bottom: 120px;
+        }
+    
+        .antenna {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 264px;
+            height: 112px;
+            border-radius: 4px;
+            border: 1px solid #8E8F99;
+            background-color: #F4F4FD;
+            margin-bottom: 8px;
+        }
+    
+        .icon-antenna {
+            margin: 24px 100px;
+        }
+    
+        .information {
+            gap: 24px;
+            flex-wrap: nowrap;
+        }
+    
+        .magor {
+            width: calc((100% - 72px) / 4);
+        }
+    }
+ 

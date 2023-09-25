@@ -1,152 +1,8 @@
  
-  
-  /*Скидання дляпочатку роботи над розміщенням всього*/
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  p {
-      margin-top: 0;
-      margin-bottom: 0;
-  }
-
-  ul,
-  ol {
-      margin-top: 0;
-      margin-bottom: 0;
-      padding-left: 0;
-  }
-
-  img {
-      display: block;
-  }
-
-  /*Скидання дляпочатку роботи над розміщенням всього*/
-
-
-
-  /*  вставляємо в контейнер черз клас container*/
-  .container {
-      width: 1158px;
-      margin-left: auto;
-      margin-right: auto;
-      padding-left: 15px;
-      padding-right: 15px;
-  }
-
-/*каншагетпай*/
-  /*Шапка header*/
-  .page-header-top-botom{
-    border-bottom: 1px solid #e7e9fc;
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-  }
-
-
-  /* Верхні відступи хедера */
-  
-  .page-header-container {
-      display: flex;
-  }
-
-  .page-navigation {
-      display: flex;
-      align-items: center;
-  }
-
-  .logo {
-      margin-right: 76px;
-      align-items: center;
-      display: flex;
-  }
-
-  .manu-nav {
-      gap: 40px;
-      display: flex;
-  }
-
-  .link {
-      padding: 24px 0;
-  }
-
-  .page-address {
-      margin-left: auto;
-      }
-          .link-address{
-            display: flex;
-            gap: 40px;
-          }
-
-  /*Кінець хедера*/
-
-
-  .section-text {
-      /*назва задатки*/
-      margin-left: auto;
-      margin-right: auto;
-      max-width: 496px;
-        height: 120px;
-  }
-
-  .section-one {
-      /* секція задатки*/
-   
-      padding: 188px 0;
-      text-align: center;
-     
-
-  }
-
-  .button {
-      /*кнопка*/
-     display: block;
-     min-width: 169px;
-      height: 56px;
-      margin-left: auto;
-      margin-right: auto;
-      padding: 16px 32px;
-      margin-top: 48px;
-      border-radius: 4px;
-       border: none;
-  }
+ 
 
 /*Секція два*/
-  .section-two {
-      /*Секція два*/
-      padding: 120px 0;
-      
-  }
-
-  .visually-hidden {
-      /*Прихований заголовок*/
-      position: absolute;
-      width: 1px;
-      height: 1px;
-      margin: -1px;
-      border: 0;
-      padding: 0;
-      white-space: nowrap;
-      clip-path: inset(100%);
-      clip: rect(0 0 0 0);
-      overflow: hidden;
-  }
-
-
-  .information {
-      display: flex;
-      gap: 24px;
-  }
-
-
-  .magor {
-      width: calc((100% - 72px) / 4);
-  }
-
-  .name-text {
-      margin-bottom: 8px;
-  }
-
+  
 
 
   /*Секція три*/
@@ -229,92 +85,13 @@
  
 
 
-
-
   /* 2 дз по модулю*/
 
-  body {
-      font-family: 'Roboto', sans-serif;
-      color: #434455;
-      background-color: #FFFFFF;
-  }
-
-  .logo {
-      font-family: "Raleway", sans-serif;
-      font-size: 18px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: 1.17;
-      letter-spacing: 0.03em;
-      text-transform: uppercase;
-      color: #4D5AE5;
-      text-decoration: none;
-  }
-
-  .alogo {
-      color: #2e2f42;
-      font-family: "Raleway";
-      font-size: 18px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: 1.17;
-      letter-spacing: 0.03em;
-      text-transform: uppercase;
-  }
-
-  .studio-footer {
-      color: #f4f4fd;
-  }
-
-
-  .list {
-      list-style-type: none;
-      font-weight: 500;
-      color: #2e2f42;
-  }
-
-  .manu-nav {
-      font-family: "Roboto";
-      font-size: 16px;
-      font-weight: 500;
-      line-height: 1.5;
-      letter-spacing: 0.02em;
-  }
-
-  .link {
-      font-family: "Roboto";
-      font-size: 16px;
-      font-weight: 500;
-      line-height: 1.5;
-      letter-spacing: 0.02em;
-      color: #2e2f42;
-      list-style-type: none;
-      text-decoration: none;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
-  }
-
-  .address-email {
-      color: #434455;
-    
-  }
-
-
-  .link:hover,
-  .link:focus {
-      color: #404BBF;
-    
-  }
-
-  .top-link {
-      background-color: #FFF;
-      font-style: normal;
-      font-family: normal;
-  }
 .studio-li{ color: #404bbf;
     position: relative;
 
 }
+/*
 .studio-li::after{
     content: "";
         display: block;
@@ -324,97 +101,13 @@
         background-color: #404bbf;
         border-radius: 2px;
         bottom: -1px;
-    }
+    }комент*/
    
 
 
 
   /*Section1*/
-  .section-text {
-      text-align: center;
-      color: #FFF;
-      font-size: 56px;
-      font-weight: 700;
-      line-height: 1.07;
-      letter-spacing: 0.02em;
-
-  }
-
-
-  .section-one { background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(/images/people-office.jpg);
-        max-width: 1440px;
-        background-position: center;
-        margin: auto;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-color: #2E2F42;;
-
-    }
-
   
-  .section-one {padding: 188px 0;
-    text-align: center;
- 
-  }
-/*виправляв глянуть в старі дз */
-  button {
-      cursor: pointer;
-      font-style: inherit;
-      color: #FFFFFF;
-      background-color: #4D5AE5;
-      font-weight: 500;
-      line-height: 1.5;
-      letter-spacing: 0.04em;
-      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
-  
-
-  button:hover,
-  button:focus {
-      color: #404BBF;
-      color: #FFFFFF;
-      background-color: #404BBF;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
-  
-
-
-  /*Section2*/
-  .name-text {
-      color: #2E2F42;
-      font-family: Roboto;
-      font-size: 20px;
-      font-weight: 500;
-      line-height: 1.2;
-      letter-spacing: 0.02em; }
- 
-
-  .title-text {
-      color: #434455;
-      font-family: Roboto;
-      font-size: 16px;
-      font-weight: 400;
-      line-height: 1.5;
-      letter-spacing: 0.02em;}
-  
-
-  .section-two {
-      background-color: #FFF; }
- 
-.antenna{
-    display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 264px;
-        height: 112px;
-        border-radius: 4px;
-        border: 1px solid #8E8F99;
-        background-color: #F4F4FD;
-        margin-bottom: 8px;
-    }
-.icon-antenna{
-    margin: 24px 100px;
-}
-
 
   /*section 3*/
   .section-team {
@@ -473,8 +166,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 
 
         .icon-svg{
-            fill: #F4F4FD;
-        }
+            fill: #F4F4FD; }
   .mark {
       color: #2E2F42;
       text-align: center;
@@ -489,8 +181,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
         list-style-type: none;
         gap: 24px;
         justify-content: center;
-        margin-top: 8px;
-    }
+        margin-top: 8px;}
     
        
 
@@ -526,8 +217,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
       font-weight: 700;
       line-height: 1.11;
       letter-spacing: 0.02em;
-      text-transform: capitalize;
-   }
+      text-transform: capitalize;}
  
 
   .banking {
@@ -536,8 +226,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
       font-size: 20px;
       font-weight: 500;
       line-height: 1.2;
-      letter-spacing: 0.02em;
-  }
+      letter-spacing: 0.02em;}
 
   .class-p {
       color: #434455;
@@ -545,13 +234,11 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
       font-size: 16px;
       font-weight: 400;
       line-height: 1.5;
-      letter-spacing: 0.02em;
-  }
+      letter-spacing: 0.02em;}
 .ptext{
     position: relative;
         overflow: hidden;
-        
-    }
+        }
 
   .overlay{
         position: absolute;
@@ -618,6 +305,9 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
                    align-items: center;
                  justify-content: center;
                            }
+.studio-footer {
+      color: #f4f4fd;
+  }
 
 
 

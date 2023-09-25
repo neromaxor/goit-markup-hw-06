@@ -1,0 +1,162 @@
+.section-one{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 767px;
+    height: 432px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
+        url(../hero/hero-image-mobile.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #2E2F42;
+    padding-top: 72px;
+    background-image: url();
+}
+
+
+
+.section-text {
+    margin-left: auto;
+    margin-right: auto;
+    width: 165px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.button {
+    min-width: 169px;
+    height: 56px;
+    display: block;
+    font-style: inherit;
+    margin-top: 72px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    padding: 16px 32px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button:hover,
+.button:focus {
+    color: #fff;
+    background-color: #404BBF;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+@media screen and (min-resolution:192dpi),
+screen and (min-resolution:192dppx),
+screen and (min-device-pixel-rotatio: 2) {
+    .section-one{
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
+            url(../images/hero/hero-image-mobile@2x.jpg);
+    }
+}
+
+
+/* TABLET HERO SECTION */
+
+
+
+@media screen and (min-width: 768px) {
+
+    .section-text {
+        font-size: 56px;
+        line-height: 1.07;
+        width: 496px;
+        height: 120px;
+    }
+
+    .section-one {
+        padding: 112px 0;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
+            url(../images/hero/hero-image-tablet.jpg);
+        max-width: 1157px;
+        height: 436px;
+    }
+
+    .button {
+        margin-top: 36px;
+    }
+}
+
+@media screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx),
+screen and (min-device-pixel-ratio: 2) {
+    .section-one {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
+            url(../images/hero/hero-image-tablet@2x.jpg);
+    }
+
+}
+
+/*=========PC_VERSION==============*/
+@media screen and (min-width:1158px){
+.section-text {
+        text-align: center;
+        color: #FFF;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+
+    }
+
+
+    .section-one {
+        padding: 188px 0;
+            background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
+                url(../hero/hero-image-laptop.jpg);
+            max-width: 1440px;
+            height: 600px;
+        }
+
+    
+
+
+    .section-one {
+        padding: 188px 0;
+        text-align: center;
+
+    }
+
+    /*виправляв глянуть в старі дз */
+    button {
+        cursor: pointer;
+        font-style: inherit;
+        color: #FFFFFF;
+        background-color: #4D5AE5;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+
+    button:hover,
+    button:focus {
+        color: #404BBF;
+        color: #FFFFFF;
+        background-color: #404BBF;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+        @media screen and (min-resolution: 192dpi),
+        screen and (min-resolution:2dppx),
+        screen and (min-device-pixel-ratio: 2) {
+            .section-one {
+                    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
+                        url(../hero/hero-image-laptop@2x.jpg);
+        } 
+        }}

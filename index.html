@@ -13,13 +13,21 @@
   <!--Modern normalize потрібен щоб показувало однкові шрифти у різних браузерах-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css">
   <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/base/container.css">
+  <link rel="stylesheet" href="./css/base/cammon.css">
+  <link rel="stylesheet" href="./css/layout/header.css">
+  <link rel="stylesheet" href="./css/layout/hero.css">
+  <link rel="stulesheet" href="./css/layout/section-2.css">
 </head>
 
 
 
 <body>
+ 
   <header class="page-header-top-botom">
     <!--..Шапка сайту...-->
+     
     <div class="container page-header-container">
       <nav class="page-navigation top-link">
         <a class="logo" href="./index.html">
@@ -27,7 +35,7 @@
         </a>
         <ul class="manu-nav list">
           <li >
-            <a class="link studio-li" href="./index.html">Studio</a>
+            <a class="link studio-li  active-link" href="./index.html">Studio</a>  
           </li>
           <li>
             <a class="link " href="">Portfolio</a>
@@ -37,13 +45,19 @@
           </li>
         </ul>
       </nav>
+       
+       <!--<button class="burger-manu" >
+        <svg class="open-mobale-manu" width="24" height="24"
+        aria-label="burger open icon"><use href="./images/icons.svg#icons-mobile-menu"></use></svg>
+      </button>-->
+    
       <address class="page-address top-link">
         <ul class="link-address link">
           <li>
-            <a class="address-email link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="address-email link contact-info" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
           <li>
-            <a class="address-email link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+            <a class="address-email link contact-info" href="tel:+110001111111">+11 (000) 111-11-11</a>
           </li>
         </ul>
       </address>
@@ -55,6 +69,7 @@
 
 
     <!--Section1-->
+
     <section class="section-one">
       <div class="container">
         <h1 class="section-text">Effective Solutions
@@ -70,6 +85,7 @@
 
 
     <!---Section2--->
+    
     <section class="section-two">
       <div class="container">
         <h2 class="visualli-hidden">Information</h2>
@@ -127,6 +143,7 @@
 
 
     <!--Sectionn3-->
+    <!--
     <section class="section-team">
       <div class="teamouar container">
         <h2 class="betman">Our Team</h2>
@@ -286,13 +303,14 @@
         </ul>
       </div>
     </section>
-
+-->
 
 
 
 
 
     <!--Section4-->
+    <!--
     <section class="four-section">
       <div class="container">
         <h2 class="text-portfolio">Our Portfolio</h2>
@@ -393,11 +411,13 @@
           </li>
         </ul>
       </div>
-    </section>
+    </section>-->
   </main>
 
   <!--Низ  Footer  шапкі-->
-  <footer class="page-footer">
+  
+     <!--<footer class="page-footer">
+ 
     <div class="footer-content container">
        <div class="container-social-links">
       <a class="lebs logo" href="./index.html">Web<span class="studio-footer">Studio</span></a>
@@ -443,9 +463,9 @@
         </a>
        </li>
       </ul>
-</div>
+</div>-->
 <!-- FOOTER-->
-
+<!--
 <div class="container-sub">
 <p class="sub-footer">Subscribe</p>
 <form class="form-sub">
@@ -463,16 +483,16 @@ aria-label="subscribe telegram">
 </form>
 </div>
 </div>
-  </footer>
+  </footer>-->
 
   
   <!--WINDOW WITH MODEL BACKDROPPP-->
 
 
-<div class="backdrop is-open">
+<!--<div class="backdrop">
 
 
-<!--Відкрити закрити вікно-->
+
 
   <div class="modal-window">
     <button class="close-icon" type="button">
@@ -532,6 +552,84 @@ pattern="[a-zA-Zа-яА@.]+" title="berorf@gmail.com" required />
   <button class="button_form_submit" type="submit">Send</button>
 </form>
   </div>
+</div>-->
+
+
+<!--==========MANU PHONE====================-->
+
+<div class="mobal-manu open-mobale-manu-">
+  <bytton class="mobal-manu-close">
+    <svg class="mobal-manu-icon-close" width="8" height="8" aria-label="modal close">
+      <use href="./images/icons.svg#icon-close">
+    </use></svg>
+  </bytton>
+    <nav class="mobile-nav">
+      <ul class="mobile-list">
+        <li class="li-nav-mob">
+          <a class="mobal-sulka  photo-nav link" href="./index.html">
+            Studio
+          </a>
+        </li>
+        <li class="li-nav-mob">
+          <a class=" mobal-sulka link" href=""> Portfolio </a>
+        </li>
+        <li class="li-nav-mob">
+          <a class="mobal-sulka  link" href=""> Contacts </a>
+        </li>
+      </ul>
+    </nav>
+<!-- MOBILE ADDRESS -->
+
+      <address class="mobile-address">
+        <ul class="navigation-mobile-address">
+          <li class="list-mobile">
+            <a class="contact-information link" href="tel:+110001111111">
+              +11 (000) 111-11-11
+            </a>
+          </li>
+          <li class="list-mobile">
+            <a 
+              class="contact-information active-contact-mobile link"
+              href="mailto:info@devstudio.com"
+            >
+              info@devstudio.com
+            </a>
+          </li>
+        </ul>
+      </address>
+      
+      <!-- SOCIAL LINK MOBILE -->
+      
+      <ul class="mobile-social-list-icon">
+        <li class="mobile-social-list">
+          <a href="https://www.instagram.com/" class="mobile-icon-list-nav">
+            <svg class="icon-link-mobil" width="24" height="24" aria-label="instagram">
+              <use href="./images/icons.svg#icon-instagram2"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-social-list">
+          <a href="https://twitter.com/" class="mobile-icon-list-nav">
+            <svg class="icon-link-mobil" width="24" height="24" aria-label="twitter">
+              <use href="./images/icons.svg#icon-twitter2"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-social-list">
+          <a href="https://www.facebook.com/" class="mobile-icon-list-nav">
+            <svg class="icon-link-mobil" width="24" height="24" aria-label="facebook">
+              <use href="./images/icons.svg#icon-facebook2"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-social-list">
+          <a href="https://www.linkedin.com/" class="mobile-icon-list-nav">
+            <svg class="icon-link-mobil" width="24" height="24" aria-label="linkedin">
+              <use href="./images/icons.svg#icon-linkedin2"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
 </div>
 </body>
 </html>
